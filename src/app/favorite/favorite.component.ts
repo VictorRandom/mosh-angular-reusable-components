@@ -8,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class FavoriteComponent implements OnInit {
 
   //inputs vindo do elemento (pai)app.component
-  @Input() isFavorite: boolean | undefined;
+  @Input('is-favorite') isFavorite: boolean | undefined;
   @Input() title: string | undefined;
 
   constructor() { }
