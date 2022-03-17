@@ -1,5 +1,5 @@
 <app-favorite
   [is-favorite]="post.isFavorite"
   [title]="post.title"
-  (change)="onFavoriteChanged()"
+  (change)="onFavoriteChanged($event)"
   ></app-favorite>
