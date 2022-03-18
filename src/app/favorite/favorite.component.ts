@@ -1,4 +1,4 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Component, Input, Output, EventEmitter, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'app-favorite',
@@ -7,10 +7,11 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   styles:[
     `
     .teste{
-      color:blue;
+      color:green;
     }
     `
-  ]
+  ],
+  // encapsulation: ViewEncapsulation.Emulated
 
 })
 // vai prevalecer os dados do styles, porque ele fica após o styleURL, logo ele roda o styleURL e depois o style, sobescrevendo sobre o styleURLs.

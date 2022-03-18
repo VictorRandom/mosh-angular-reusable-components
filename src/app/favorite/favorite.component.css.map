@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AACA,AAAA,MAAM,CAAA;EACJ,KAAK,EAAE,GAAG;CAEX",
+    "mappings": "AAAA,AAAA,MAAM,CAAA;EACJ,KAAK,EAAE,GAAG;CAEX",
     "sources": [
         "favorite.component.scss"
     ],
